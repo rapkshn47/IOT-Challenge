@@ -1,3 +1,125 @@
+<!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap" rel="stylesheet">
+<style>
 
+</style>
+</head>
+<body>
+<div class="title-banner">
+  KERALA IOT CHALLENGE
+</div>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">About</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Level 1 IOT Challenge
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="#Experiment1">Experiment 1</a>
+    <a href="#Experiment2">Experiment 2</a>
+    <a href="#Experiment3">Experiment 3</a>
+    <a href="#Experiment4">Experiment 4</a>
+    <a href="#Experiment5">Experiment 5</a>
+    <a href="#Experiment6">Experiment 6</a>
+    <a href="#">Experiment 7</a>
+    <a href="#">Experiment 8</a>
+    <a href="#">Experiment 9</a>
+    <a href="#">Experiment 10</a>
+    <a href="#">Experiment 11</a>
+    <a href="#">Experiment 12</a>
+    <a href="#">Experiment 13</a>
+  </div>
+  </div>
+</div>
+<div class="row">
+  <div class="column-about"><b>
+    RAHUL PRAKASAN V V </b><br>
+    <img src="Images\Passport_Size.jpg" alt="" id="profile-pic">
+  </div>
+  <div class="column-main" >
+    <div class="intro-title">
+      <h2>INTRODUCTION</h2>
+    </div>
+    <div class="intro">
+
+        <p>Foxlab Makerspace in association with GTech - Group of Technology Companies in Kerala is launching our prestigious program “Kerala IoT Challenge 2021”, with a vision to mould 100 IoT experts in Kerala, hosting on the µLearn platform. Kerala IoT Challenge is a program designed in 4 levels followed by a hackathon to identify and train quality industry leaders in the IoT domain, while any novice learner can start with layer 1 and others can enter laterally to the desired layer after an evaluation.</p>
+    </div>
+    <div class="Experiment1" id="Experiment1">
+      <h2><u><b>Experiment 1</b></u></h2>
+      <h4><p>Hello World LED Blinking</p></h4>
+      <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+      <p>A sample experiment to blink a LED.</p>
+    </div>
+    <div class="Experiment2" id="Experiment2">
+      <h2><u><b>Experiment 2</b></u></h2>
+      <h4><p>Traffic Light</p></h4>
+      <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+      <p>An experiment where 3 LEDs : Red, Green and Yellow are used to represent a traffic light.</p>
+    </div>
+    <div class="Experiment3" id="Experiment3">
+      <h2><u><b>Experiment 3</b></u></h2>
+      <h4><p>LED Chasing Effect</p></h4>
+      <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+      <p>An experiment to display the Billboard LED effect.</p>
+    </div>
+    <div class="Experiment14" id="Experiment4">
+      <h2><u><b>Experiment 4</b></u></h2>
+      <h4><p>Button Controlled LED</p></h4>
+      <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+      <p>An experiment to glow a LED using a button.</p>
+    </div>
+    <div class="Experiment5" id="Experiment5">
+      <h2><u><b>Experiment 5</b></u></h2>
+      <h4><p>Buzzer</p></h4>
+      <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+      <p>A simple experiment to output the sound through a Buzzer.</p>
+    </div>
+    <div class="Experiment6" id="Experiment6">
+      <h2><u><b>Experiment 6</b></u></h2>
+      <h4><p>RGB LED</p></h4>
+      <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+      <p>A simple experiment to glow a RGB LED using a simple circuit.</p>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</body>
 </html>
